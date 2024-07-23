@@ -22,7 +22,6 @@ def register(request):
             user.save()
     else:
         form = RegistrationForm()
-        
     context = {
         'form': form,
     }
