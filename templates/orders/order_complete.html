@@ -1,4 +1,6 @@
-{% extends 'base.html' %} {% load static %} {% block content %}
+{% extends 'base.html' %} 
+{% load static %} 
+{% block content %}
 
 <div class="container" style="margin-top: 50px">
 	<center>
@@ -90,11 +92,12 @@
 												<td>
 													{{ item.product.product_name }}
 													<p class="text-muted small">
-														{% if item.variations.all %} {% for i in
-														item.variations.all %} {{ i.variation_category |
-														capfirst }} : {{ i.variation_value | capfirst }}
-														<br />
-														{% endfor %} {% endif %}
+														{% if item.variations.all %}
+															{% for i in item.variations.all %} 
+															{{ i.variation_category | capfirst }} : {{ i.variation_value | capfirst }}
+															<br />
+															{% endfor %} 
+														{% endif %}
 													</p>
 												</td>
 												<td class="text-center">{{ item.quantity }}</td>
