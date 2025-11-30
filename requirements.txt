@@ -1,0 +1,8 @@
+Django==4.2.2
+python-decouple==3.8
+# django-admin-honeypot==1.1.0  # Temporarily disabled - not compatible with Django 4.2
+django-session-timeout==0.1.0
+django-admin-thumbnails==0.2.7
+requests==2.31.0
+Pillow==10.0.0
+

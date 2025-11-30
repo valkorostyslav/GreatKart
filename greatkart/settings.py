@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'store',
     'carts',
     'orders',
-    'admin_honeypot',
+    # 'admin_honeypot',  # Temporarily disabled due to Django 4.2 compatibility issue
 ]
 
 MIDDLEWARE = [
